@@ -1,3 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP STM32F303K6T6
+F https://www.st.com/resource/en/datasheet/stm32f303c8.pdf
+$ENDCMP
+#
+$CMP STM32F303K8T6
+F https://www.st.com/resource/en/datasheet/stm32f303c8.pdf
+$ENDCMP
+#
 #End Doc Library

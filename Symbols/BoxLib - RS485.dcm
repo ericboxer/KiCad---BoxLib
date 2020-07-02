@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC-2850IS8
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP TI-THVD1500
+F https://www.ti.com/lit/ds/symlink/thvd1500.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1591822513435
+$ENDCMP
+#
+#End Doc Library
