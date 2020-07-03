@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,kicad
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,kicad
+# Created by https://www.toptal.com/developers/gitignore/api/kicad,windows,macos,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=kicad,windows,macos,visualstudiocode
 
 ### KiCad ###
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
@@ -18,7 +18,6 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-README.pdf
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -80,4 +79,30 @@ Temporary Items
 # Ignore all local history of files
 .history
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,kicad
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.toptal.com/developers/gitignore/api/kicad,windows,macos,visualstudiocode
