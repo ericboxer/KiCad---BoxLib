@@ -1,4 +1,4 @@
-(module LQFP-48 (layer F.Cu) (tedit 5F07D175)
+(module LQFP-48 (layer F.Cu) (tedit 5F0B0176)
   (attr smd)
   (fp_text reference REF** (at -3.15 -5.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
