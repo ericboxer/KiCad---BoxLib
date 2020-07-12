@@ -1,4 +1,38 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Generic_Crystal
+#
+DEF Generic_Crystal Y 0 40 N N 1 F N
+F0 "Y" -25 100 50 H V C CNN
+F1 "Generic_Crystal" 0 -100 50 H V C CNN
+F2 "" -250 -300 50 H I C CNN
+F3 "" -250 -300 50 H I C CNN
+F4 "FREQ" 0 -200 50 H V C CNN "Frequency"
+DRAW
+S -25 50 25 -50 0 1 0 N
+P 2 0 1 0 -50 50 -50 -50 N
+P 3 0 1 0 50 50 50 0 50 -50 N
+X 1 1 -100 0 50 R 50 50 1 1 P
+X 2 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# NX3215SA
+#
+DEF NX3215SA Y 0 40 N N 1 F N
+F0 "Y" 0 100 50 H V C CNN
+F1 "NX3215SA" 0 -100 50 H V C CNN
+F2 "" -250 -300 50 H I C CNN
+F3 "" -250 -300 50 H I C CNN
+F4 "32.768kHz" 0 -200 50 H V C CNN "Frequency"
+DRAW
+S -25 50 25 -50 0 1 0 N
+P 2 0 1 0 -50 50 -50 -50 N
+P 3 0 1 0 50 50 50 0 50 -50 N
+X 1 1 -100 0 50 R 50 50 1 1 P
+X 2 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
