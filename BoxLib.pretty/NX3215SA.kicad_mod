@@ -1,4 +1,4 @@
-(module NX3215SA (layer F.Cu) (tedit 5F0B2315)
+(module NX3215SA (layer F.Cu) (tedit 5F0B2363)
   (fp_text reference REF** (at -2 -2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
@@ -11,4 +11,9 @@
   (fp_line (start 2 -1.25) (end -2 -1.25) (layer F.CrtYd) (width 0.12))
   (pad 1 smd roundrect (at -1.25 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 2 smd rect (at 1.25 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask))
+  (model "${BOXLIB}/3D Models/NDK_NX3215SA.step"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

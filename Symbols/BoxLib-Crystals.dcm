@@ -5,4 +5,9 @@ D CRYSTAL 32.7680KHZ SMD
 F https://www.ndk.com/images/products/catalog/c_NX3215SA-STD-MUA-14_e.pdf
 $ENDCMP
 #
+$CMP XRCGB24M000F0L00R0
+D 24MHz
+F https://www.murata.com/~/media/webrenewal/campaign/ads/america/timing/p79e.ashx?la=en-us
+$ENDCMP
+#
 #End Doc Library
