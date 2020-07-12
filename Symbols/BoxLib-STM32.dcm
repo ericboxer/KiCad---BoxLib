@@ -1,11 +1,32 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP STM32F072C8
+D Mainstream ARM Cortex-M0 USB line MCU with 64 Kbytes Flash, 48 MHz CPU, USB, CAN and CEC functions
+K 64k
+F https://www.st.com/resource/en/datasheet/stm32f072c8.pdf
+$ENDCMP
+#
+$CMP STM32F072CB
+D Mainstream ARM Cortex-M0 USB line MCU with 128 Kbytes Flash, 48 MHz CPU, USB, CAN and CEC functions
+K 128k
+F https://www.st.com/content/st_com/en/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-mainstream-mcus/stm32f3-series/stm32f302/stm32f302c8.html
+$ENDCMP
+#
+$CMP STM32F302C8T6
+D Mainstream Mixed signals MCUs ARM Cortex-M4 core with DSP and FPU, 64 Kbytes Flash, 72 MHz CPU, 12-bit ADC 5 MSPS, Comparator, Op-Amp
+F https://www.st.com/content/st_com/en/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-mainstream-mcus/stm32f3-series/stm32f302/stm32f302c8.html
+$ENDCMP
+#
 $CMP STM32F303K6T6
+D Mainstream Mixed signals MCUs ARM Cortex-M4 core with DSP and FPU, 32 Kbytes Flash, 72 MHz CPU, CCM, 12-bit ADC 5 MSPS, comparators, op-amp
+K STM32, LQFP32
 F https://www.st.com/resource/en/datasheet/stm32f303c8.pdf
 $ENDCMP
 #
 $CMP STM32F303K8T6
-F https://www.st.com/resource/en/datasheet/stm32f303c8.pdf
+D Mainstream Mixed signals MCUs ARM Cortex-M4 core with DSP and FPU, 64 Kbytes Flash, 72 MHz CPU, CCM, 12-bit ADC 5 MSPS, comparators, op-amp
+K STM32, LQFP32
+F https://www.st.com/resource/en/datasheet/stm32f303k8.pdf
 $ENDCMP
 #
 #End Doc Library
