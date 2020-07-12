@@ -1,10 +1,26 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ISL81487EIPZ
+F https://www.renesas.com/us/en/www/doc/datasheet/isl8487e-81487l-81487e.pdf
+$ENDCMP
+#
 $CMP LTC-2850IS8
 F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
 $ENDCMP
 #
+$CMP MAX3440EEPA+
+F https://datasheets.maximintegrated.com/en/ds/MAX3440E-MAX3444E.pdf
+$ENDCMP
+#
+$CMP MAX3440EESA+
+F https://datasheets.maximintegrated.com/en/ds/MAX3440E-MAX3444E.pdf
+$ENDCMP
+#
 $CMP MAX3443E
+F https://datasheets.maximintegrated.com/en/ds/MAX3440E-MAX3444E.pdf
+$ENDCMP
+#
+$CMP MAX3443ECSA+
 F https://datasheets.maximintegrated.com/en/ds/MAX3440E-MAX3444E.pdf
 $ENDCMP
 #
