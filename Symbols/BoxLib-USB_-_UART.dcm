@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CY7C65213A-28PVXI
+K USB UART TSSOP28 CYPRESS
+F https://www.cypress.com/file/139881/download
+$ENDCMP
+#
+$CMP CY7C65213A-32LTXI
+K USB UART QFN32 CYPRESS
+F https://www.cypress.com/file/139881/download
+$ENDCMP
+#
+#End Doc Library
