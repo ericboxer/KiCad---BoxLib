@@ -1,0 +1,36 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0157001.DR
+D Littlefuse Nano2 157 Quick Blow
+K Fuse
+F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP 0157001.DRT
+D Littlefuse Nano2 157 Slow Blow
+F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP 015701.5DR
+D Littlefuse Nano2 157 Quick Blow
+K Fuse
+F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP 015701.5DRT
+D Littlefuse Nano2 157 Slow Blow
+F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP 0157500.DR
+D Littlefuse Nano2 157 Quick Blow 0.5A
+K Fuse
+F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP 0157500.DRT
+D Littlefuse Nano2 157 Slow Blow 0.5A
+F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library
