@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FQD11P06TM
+D P-Channel 60V 9.4A (Tc) 2.5W (Ta), 38W (Tc) Surface Mount D-Pak
+F https://www.onsemi.com/pub/Collateral/FQU11P06-D.pdf
+$ENDCMP
+#
+$CMP IRLR8721TRPBF
+D N-Channel 30V 65A (Tc) 65W (Tc) Surface Mount D-Pak
+F https://media.digikey.com/pdf/Data%20Sheets/Infineon%20PDFs/IRLR8721PbF,IRLU8721PbF.pdf
+$ENDCMP
+#
+#End Doc Library
