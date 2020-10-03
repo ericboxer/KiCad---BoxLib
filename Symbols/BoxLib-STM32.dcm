@@ -29,4 +29,8 @@ K STM32, LQFP32
 F https://www.st.com/resource/en/datasheet/stm32f303k8.pdf
 $ENDCMP
 #
+$CMP STM32F405RG
+F https://www.st.com/resource/en/datasheet/stm32f405rg.pdf
+$ENDCMP
+#
 #End Doc Library
