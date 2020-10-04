@@ -1,5 +1,33 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DC_Barrel_Jack
+K  Barrel Jack
+$ENDCMP
+#
+$CMP PJ-001AH-67
+D DC Power Jack 2.1mm
+K  Barrel Jack
+F https://www.cuidevices.com/product/resource/pj-001bh-67.pdf
+$ENDCMP
+#
+$CMP PJ-001BH-67
+D DC Power Jack 2.5mm
+K  Barrel Jack
+F https://www.cuidevices.com/product/resource/pj-001bh-67.pdf
+$ENDCMP
+#
+$CMP PJ-001xH-67
+K  Barrel Jack
+$ENDCMP
+#
+$CMP TC2030-IDC
+D TC2030 SWD STM32
+$ENDCMP
+#
+$CMP USB-C
+K USB-C
+$ENDCMP
+#
 $CMP USB4105-GF-A
 D CONN RCPT USB2.0 TYPEC 5A PTH Mount
 K USB-C, USBC, USB C, Horizontal, 2.0
