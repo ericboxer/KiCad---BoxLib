@@ -56,4 +56,21 @@ X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# TestPoint
+#
+DEF TestPoint TP 0 40 N N 1 F N
+F0 "TP" -45 30 50 H V R CNN
+F1 "TestPoint" 0 105 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TP-*
+ Test_point
+$ENDFPLIST
+DRAW
+C 0 35 35 0 1 0 F
+X 1 1 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library

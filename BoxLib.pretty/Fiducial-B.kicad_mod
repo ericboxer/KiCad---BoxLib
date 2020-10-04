@@ -1,0 +1,10 @@
+(module Fiducial-B (layer F.Cu) (tedit 5F7911C1)
+  (fp_text reference REF** (at 0 -1.7) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Fiducial-B (at 0 1.55) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd circle (at 0 0) (size 0.762 0.762) (layers F.Cu F.Mask)
+    (solder_mask_margin 0.381) (clearance 0.381))
+)

@@ -1,3 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LTST-C191
+D 0603 Indicator LED
+$ENDCMP
+#
+$CMP LTST-C191KGKT
+D 0603 Indicator LED Green
+F http://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF
+$ENDCMP
+#
+$CMP LTST-C191TBKT
+D 0603 Indicator LED - Blue
+F http://optoelectronics.liteon.com/upload/download/DS22-2000-230/LTST-C191TBKT.pdf
+$ENDCMP
+#
 #End Doc Library
