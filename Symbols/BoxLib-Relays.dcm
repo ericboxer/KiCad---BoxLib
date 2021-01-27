@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCFN-112H2MG
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=PCFN_solar_relay_datasheet&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP PCFN-124H2MG
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=PCFN_solar_relay_datasheet&DocType=DS&DocLang=English
+$ENDCMP
+#
+#End Doc Library
