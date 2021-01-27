@@ -54,4 +54,8 @@ K USB-C, USBC, USB C, Horizontal, 2.0
 F https://gct.co/files/drawings/usb4110.pdf
 $ENDCMP
 #
+$CMP Wurth-74650073R
+F https://www.we-online.de/katalog/datasheet/74650073R.pdf
+$ENDCMP
+#
 #End Doc Library
