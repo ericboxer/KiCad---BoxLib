@@ -44,4 +44,19 @@ D Littlefuse Nano2 157 Slow Blow 0.5A
 F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf
 $ENDCMP
 #
+$CMP 0ZRS1000FF1A
+D 20a PTC Fuse 32vdc max 10a hold 15s trip
+F https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zrs-series.pdf
+$ENDCMP
+#
+$CMP 20a
+D 20a PTC Fuse 32vdc max 10a hold 15s trip
+F https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zrs-series.pdf
+$ENDCMP
+#
+$CMP Bel_0ZRS1000FF1A
+D 20a PTC Fuse 32vdc max 10a hold 15s trip
+F https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zrs-series.pdf
+$ENDCMP
+#
 #End Doc Library

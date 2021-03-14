@@ -39,6 +39,29 @@ X Short 3 100 0 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# Generic_2Pos_terminal_block
+#
+DEF Generic_2Pos_terminal_block J 0 40 Y Y 1 F N
+F0 "J" -125 200 50 H V L CNN
+F1 "Generic_2Pos_terminal_block" 0 0 50 H I C CNN
+F2 "" -100 -125 50 H I C CNN
+F3 "" -100 -125 50 H I C CNN
+$FPLIST
+ 2_pos,_2pos,_2_pos
+$ENDFPLIST
+DRAW
+C 0 50 35 0 1 0 N
+C 0 -75 35 1 1 0 N
+S -125 150 125 -175 0 1 0 f
+P 2 0 1 0 -25 50 25 50 N
+P 2 0 1 0 0 75 0 25 N
+P 2 1 1 0 0 -50 0 -100 N
+P 2 1 1 0 25 -75 -25 -75 N
+X ~ 1 -225 50 100 R 50 50 1 1 I
+X ~ 2 -225 -75 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # HartingIX-A
 #
 DEF HartingIX-A J 0 40 Y Y 1 F N
