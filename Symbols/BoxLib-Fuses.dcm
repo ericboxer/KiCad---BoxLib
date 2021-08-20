@@ -49,14 +49,8 @@ D 20a PTC Fuse 32vdc max 10a hold 15s trip
 F https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zrs-series.pdf
 $ENDCMP
 #
-$CMP 20a
-D 20a PTC Fuse 32vdc max 10a hold 15s trip
-F https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zrs-series.pdf
-$ENDCMP
-#
-$CMP Bel_0ZRS1000FF1A
-D 20a PTC Fuse 32vdc max 10a hold 15s trip
-F https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zrs-series.pdf
+$CMP 2920L185
+F https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_2920l_datasheet.pdf.pdf
 $ENDCMP
 #
 #End Doc Library

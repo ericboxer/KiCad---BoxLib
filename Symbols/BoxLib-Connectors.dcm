@@ -34,6 +34,10 @@ $CMP Phoenix-1787399
 D 4 Pin locking connector
 $ENDCMP
 #
+$CMP Phoenix-1844249
+D 5 Pin connector
+$ENDCMP
+#
 $CMP TC2030-IDC
 D TC2030 SWD STM32
 $ENDCMP

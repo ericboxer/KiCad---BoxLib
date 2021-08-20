@@ -1,11 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CDSOT23-SM712
+D ESD TVS rs485
+F https://www.bourns.com/docs/Product-Datasheets/CDSOT23-SM712.pdf
+$ENDCMP
+#
 $CMP PESD1CAN-U
 F https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf
 $ENDCMP
 #
 $CMP PESD1CAN-UX
 F https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf
+$ENDCMP
+#
+$CMP SMAJ36A
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf
 $ENDCMP
 #
 #End Doc Library
