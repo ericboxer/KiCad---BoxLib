@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RP2040
+F https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
