@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LED-XZVS54S
+D 2mm x 1.75mm x 0.75mm UV LED 0805 package
+K UV 0805
+$ENDCMP
+#
 $CMP LTST-C191
 D 0603 Indicator LED
 $ENDCMP
@@ -12,6 +17,30 @@ $ENDCMP
 $CMP LTST-C191TBKT
 D 0603 Indicator LED - Blue
 F http://optoelectronics.liteon.com/upload/download/DS22-2000-230/LTST-C191TBKT.pdf
+$ENDCMP
+#
+$CMP XZVS54S-9A
+D 2mm x 1.75mm x 0.75mm 365nm UV LED 0805 package
+K UV 0805 365nm
+F https://www.sunledusa.com/products/spec/XZVS54S-9A.pdf
+$ENDCMP
+#
+$CMP XZVS54S-9C
+D 2mm x 1.75mm x 0.75mm 385nm UV LED 0805 package
+K UV 0805385nm
+F https://www.sunledusa.com/products/spec/XZVS54S-9C.pdf
+$ENDCMP
+#
+$CMP XZVS54S-9D
+D 2mm x 1.75mm x 0.75mm 395nm UV LED 0805 package
+K UV 0805 395nm
+F https://www.sunledusa.com/products/spec/XZVS54S-9D.pdf
+$ENDCMP
+#
+$CMP XZVS54S-9F
+D 2mm x 1.75mm x 0.75mm 415nm UV LED 0805 package
+K UV 0805 415nm
+F https://www.sunledusa.com/products/spec/XZVS54S-9F.pdf
 $ENDCMP
 #
 #End Doc Library
