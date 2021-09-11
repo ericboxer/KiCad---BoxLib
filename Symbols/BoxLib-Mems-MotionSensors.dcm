@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ST-AIS2IHTR
+D  high-performance 3-axis accelerometer
+F https://www.st.com/resource/en/datasheet/ais2ih.pdf
+$ENDCMP
+#
+#End Doc Library
