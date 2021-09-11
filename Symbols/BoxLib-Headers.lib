@@ -10,10 +10,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MPN" 25 150 50 H V L CNN "MPN"
 $FPLIST
- jumper
- 3pos*
- Header*
- jp
+ Header*3pos*
 $ENDFPLIST
 DRAW
 A 50 -25 90 563 1237 0 1 0 N 100 50 0 50
