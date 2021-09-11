@@ -10,4 +10,9 @@ D N-Channel 30V 65A (Tc) 65W (Tc) Surface Mount D-Pak
 F https://media.digikey.com/pdf/Data%20Sheets/Infineon%20PDFs/IRLR8721PbF,IRLU8721PbF.pdf
 $ENDCMP
 #
+$CMP RQ3E120ATTB
+D MOSTFET P-Channel 30 V 12A (Ta) 2W (Ta) Surface Mount 8-HSMT (3.2x3)
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq3e120attb-e.pdf
+$ENDCMP
+#
 #End Doc Library
