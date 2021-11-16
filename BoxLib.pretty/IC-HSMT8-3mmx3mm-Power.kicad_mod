@@ -1,4 +1,5 @@
-(module IC-HSMT8-3mmx3mm-Power (layer F.Cu) (tedit 613CA9F6)
+(module IC-HSMT8-3mmx3mm-Power (layer F.Cu) (tedit 613D4CE3)
+  (descr "8 pin IC. Pins 5-8 are tied together and labeled 5")
   (attr smd)
   (fp_text reference REF** (at -2.6 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))

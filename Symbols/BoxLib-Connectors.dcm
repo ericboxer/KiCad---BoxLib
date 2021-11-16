@@ -1,5 +1,22 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CUI-PJ-001AH-67
+D DC Power Jack 2.1mm
+K  Barrel Jack
+F https://www.cuidevices.com/product/resource/pj-001ah-67.pdf
+$ENDCMP
+#
+$CMP CUI-PJ-001BH-67
+D DC Power Jack 2.5mm
+K  Barrel Jack
+F https://www.cuidevices.com/product/resource/pj-001bh-67.pdf
+$ENDCMP
+#
+$CMP CUI-PJ-001xH-67
+D DC Poert Jack
+K  Barrel Jack
+$ENDCMP
+#
 $CMP DC_Barrel_Jack
 K  Barrel Jack
 $ENDCMP
@@ -9,33 +26,17 @@ D Harting IX - A - Horizontal
 F https://b2b.harting.com/files/download/PRD/PDF_TS/09452812561_100805702DRW000C.pdf
 $ENDCMP
 #
-$CMP PJ-001AH-67
-D DC Power Jack 2.1mm
-K  Barrel Jack
-F https://www.cuidevices.com/product/resource/pj-001bh-67.pdf
-$ENDCMP
-#
-$CMP PJ-001BH-67
-D DC Power Jack 2.5mm
-K  Barrel Jack
-F https://www.cuidevices.com/product/resource/pj-001bh-67.pdf
-$ENDCMP
-#
-$CMP PJ-001xH-67
-K  Barrel Jack
-$ENDCMP
-#
 $CMP Phoenix-1778780
-D 4 Pin Detent locking connecotr
+D 4pos Detent locking connecotr
 F https://www.phoenixcontact.com/online/portal/us/pxc/product_detail_page/!ut/p/z1/5Vddc6IwFP0r7oNvjQkQPnxUbEtbdKngrvDCBIiWLl-FqLW_fpPqTtdOq7PT8WEHJ6MJ3HtuzkmOMxcGcA6DgqzTJWFpWZCMr_1AC72hd3npyJr0_V4dopuRal7aeCpZExn-gAEMGprRmNHEJIwuy3oL_YFtixeMRNBXxayK41_Qd4AkASTzb_EsS6OaiOhVQ4vXoDSBvqTrhm4gsS4XjmnevU9jKcso9K8oTQB7qMvV8qHzQElC6w7oOJ477qALtYs6GFgWkC9U4I5Hnaki87d_sH8epTXgZY6z3uWjTz4DdCrf5_l6aMh3pnWNpbHh9K_Q_Whqj82hadlDDbqCaFo0jBQxFap8qNebvDXlYWta7wKrukxWMRtRRtKsuWE0vzkU9tMDe38CVbLIy4TuYcsmFffioAhfe_SZ7Z99cMocIiPFckWWAuYEc7W1zPW2Mp_i1jJvrc-nrfX5tLU-11vrc721Ptdb6_NJe297a__hJhJn7g-hL_uza2sJb7kIUd7bxHkP9arnuLcvGiav1MJKgPIOK318egoGMIjLgonNzIVCXbShURflJOXTfWLTRVnasNdEPnfMYchzCi5GWTfh28a7KIlVQyeaDiIVI4A1TQNERhhQqsiRttAlpW_wLiY42qgMpH3AkUbHpUU4c0Nnbs7cE_LYvG9ap3QDZ0VZ57y5dHeii0NLkIEoRjogiawCrMsUENSPQYT62KAYL2SkQgudqiB9scIJeOWs8KPzwnvnFUdB54X_6u5vj151G3_FiFUc_W3E6l-NWOW5oewHmM1fPBq9HA4DKW8huxFOJur63fjfMo2tgh6xf7vebLxFbkbG4c92M_j2G9KLXgM!/p0/IZ7_82KCHG41M8P9F0QDRLMCBCHL74=CZ6_TBTEEP261OQ5B0ID5CEL4R1HN2=LA0=EdownloadId!6318211=action!downloadFile==/#Z7_82KCHG41M8P9F0QDRLMCBCHL74
 $ENDCMP
 #
 $CMP Phoenix-1787399
-D 4 Pin locking connector
+D 4pos locking connector
 $ENDCMP
 #
 $CMP Phoenix-1844249
-D 5 Pin connector
+D 5 pos Receptical
 $ENDCMP
 #
 $CMP TC2030-IDC

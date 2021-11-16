@@ -4,4 +4,34 @@ $CMP CHB350
 F https://www.cincon.com/productdownload/CHB350-V14.pdf
 $ENDCMP
 #
+$CMP P78E03-1000
+D CUI DC-DC 3vdc 3SIP 1a
+F https://www.cui.com/product/resource/p78e-1000.pdf
+$ENDCMP
+#
+$CMP P78E05-1000
+D CUI DC-DC 5vdc 3SIP 1a
+F https://www.cui.com/product/resource/p78e-1000.pdf
+$ENDCMP
+#
+$CMP P78E09-1000
+D CUI DC-DC 9vdc 3SIP 1a
+F https://www.cui.com/product/resource/p78e-1000.pdf
+$ENDCMP
+#
+$CMP P78E12-1000
+D CUI DC-DC 12vdc 3SIP 1a
+F https://www.cui.com/product/resource/p78e-1000.pdf
+$ENDCMP
+#
+$CMP P78E15-1000
+D CUI DC-DC 15vdc 3SIP 1a
+F https://www.cui.com/product/resource/p78e-1000.pdf
+$ENDCMP
+#
+$CMP P78EXX
+D CUI DC-DC 3SIP 1a
+F https://www.cui.com/product/resource/p78e-1000.pdf
+$ENDCMP
+#
 #End Doc Library
