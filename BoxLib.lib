@@ -41,6 +41,42 @@ X ~ C 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Generic-PTH-1
+#
+DEF Generic-PTH-1 j 0 40 N N 1 F N
+F0 "j" 0 150 50 H V L CNN
+F1 "Generic-PTH-1" 0 250 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Pin" 0 0 50 H V L CNN "Name"
+$FPLIST
+ PTH-1-*
+$ENDFPLIST
+DRAW
+S 0 100 450 -100 0 1 0 f
+X ~ 1 -100 0 100 R 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# Generic-PTH-2
+#
+DEF Generic-PTH-2 j 0 40 N N 1 F N
+F0 "j" 0 150 50 H V L CNN
+F1 "Generic-PTH-2" 0 250 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Pin1" 0 50 50 H V L CNN "Name1"
+F5 "Pin2" 0 -50 50 H V L CNN "Name2"
+$FPLIST
+ PTH-2-*
+$ENDFPLIST
+DRAW
+S 0 100 450 -100 0 1 0 f
+X ~ 1 -100 50 100 R 50 50 0 0 U
+X ~ 2 -100 -50 100 R 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
 # R
 #
 DEF R R 0 0 N N 1 F N
