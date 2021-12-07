@@ -4,4 +4,9 @@ $CMP DSS_60-0045B
 F https://ixapps.ixys.com/DataSheet/L127.pdf
 $ENDCMP
 #
+$CMP SSA24-E3_61T
+D Diode Schottky 40 V 2A Surface Mount DO-214AC (SMA)
+F https://www.vishay.com/docs/88882/ssa23l.pdf
+$ENDCMP
+#
 #End Doc Library
