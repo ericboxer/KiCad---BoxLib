@@ -20,7 +20,8 @@
     {
       "version": "1.0",
       "status": "testing",
-      "kicad_version": "6.0"
+      "kicad_version": "6.0",
+      "download_url": "https://github.com/ericboxer/KiCad---BoxLib/releases/download/1.0dev1/boxlib-1.0.zip"
     }
   ]
 }
