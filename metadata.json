@@ -1,27 +1,31 @@
 {
-  "$schema": "https://go.kicad.org/pcm/schemas/v1",
-  "name": "BoxLib KiCAD Library",
-  "description": "BoxLib Custom Symbol and Footprint Library",
-  "description_full": "This package contains symbols and footprints for my custom PCB library.",
-  "identifier": "com.github.ericboxer.boxlib",
-  "type": "library",
-  "author": {
-    "name": "Eric Boxer",
-    "contact": {
-      "email": "eric@ericboxer.net"
-    }
-  },
-  "license": "MIT",
-  "resources": {
-    "Github": "https://https://github.com/ericboxer/KiCad---BoxLib"
-  },
-  "tags": ["footprint", "symbol", "unified"],
-  "versions": [
+  "packages": [
     {
-      "version": "1.0",
-      "status": "testing",
-      "kicad_version": "6.0",
-      "download_url": "https://github.com/ericboxer/KiCad---BoxLib/releases/download/1.0dev1/boxlib-1.0.zip"
+      "$schema": "https://go.kicad.org/pcm/schemas/v1",
+      "name": "BoxLib KiCAD Library",
+      "description": "BoxLib Custom Symbol and Footprint Library",
+      "description_full": "This package contains symbols and footprints for my custom PCB library.",
+      "identifier": "com.github.ericboxer.boxlib",
+      "type": "library",
+      "author": {
+        "name": "Eric Boxer",
+        "contact": {
+          "email": "eric@ericboxer.net"
+        }
+      },
+      "license": "MIT",
+      "resources": {
+        "Github": "https://https://github.com/ericboxer/KiCad---BoxLib"
+      },
+      "tags": ["footprint", "symbol", "unified"],
+      "versions": [
+        {
+          "version": "1.0",
+          "status": "testing",
+          "kicad_version": "6.0",
+          "download_url": "https://github.com/ericboxer/KiCad---BoxLib/releases/download/1.0dev1/boxlib-1.0.zip"
+        }
+      ]
     }
   ]
 }
