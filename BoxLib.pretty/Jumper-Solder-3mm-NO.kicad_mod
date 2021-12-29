@@ -1,0 +1,37 @@
+(footprint "Jumper-Solder-3mm-NO" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61CCABBC)
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -2.5 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5d708b1d-f53e-4c26-a11a-dd207e069a6f)
+  )
+  (fp_text value "Jumper-Solder-3mm-NO" (at 0 4 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp bd93ff56-c7fd-45d2-9d0e-0991c5dd8b33)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5bdfc5d6-04f4-4524-a2fb-c03088d555b2)
+  )
+  (fp_poly (pts
+      (arc (start -0.5 -1.5) (mid -2 0) (end -0.5 1.5))
+    ) (layer "F.Cu") (width 0.2) (fill solid) (tstamp c8dfb728-e5a4-4a6a-be2d-7e34fb3e947f))
+  (fp_poly (pts
+      (arc (start 0.5 1.5) (mid 2 0) (end 0.5 -1.5))
+    ) (layer "F.Cu") (width 0.2) (fill solid) (tstamp f111774c-adb5-48ff-a199-bf28ef98a593))
+  (fp_poly (pts
+      (arc (start -0.5 -1.5) (mid -2 0) (end -0.5 1.5))
+    ) (layer "F.Mask") (width 0.2) (fill solid) (tstamp 0a51a454-56f1-4dee-be3d-931fa35c032d))
+  (fp_poly (pts
+      (arc (start 0.5 1.5) (mid 2 0) (end 0.5 -1.5))
+    ) (layer "F.Mask") (width 0.2) (fill solid) (tstamp 1c21eeb8-ac17-45e5-ae4d-a94263a012cb))
+  (pad "1" smd custom (at -1.5 0) (size 1 1) (layers "F.Cu" "F.Mask")
+    (options (clearance outline) (anchor circle))
+    (primitives
+    ) (tstamp d38ab5d8-aa5d-4f99-b915-e105e57bde2a))
+  (pad "2" smd custom (at 1.5 0) (size 1 1) (layers "F.Cu" "F.Mask")
+    (options (clearance outline) (anchor circle))
+    (primitives
+    ) (tstamp 2dce06cd-538a-4f71-aab8-276266792019))
+)
