@@ -582,6 +582,10 @@
       (net 5 "unconnected-(J1-Pad2)") (pintype "input") (tstamp 73c11944-4483-4846-93e9-4ddd6eb830d2))
   )
 
+  (gr_line (start 50.8 91.44) (end 50.8 63.5) (layer "Edge.Cuts") (width 0.1) (tstamp 1f07f6cd-34dd-4aa8-93ef-c3d961114b27))
+  (gr_line (start 116.84 63.5) (end 116.84 91.44) (layer "Edge.Cuts") (width 0.1) (tstamp 52ceccc3-c24a-4955-9796-39c6f2349932))
+  (gr_line (start 50.8 63.5) (end 116.84 63.5) (layer "Edge.Cuts") (width 0.1) (tstamp 6578d6d2-5cb6-4934-88bf-3b6b82c3682c))
+  (gr_line (start 116.84 91.44) (end 50.8 91.44) (layer "Edge.Cuts") (width 0.1) (tstamp df02e7c0-27b6-4982-8055-e5b54104a405))
   (gr_text "${RevNumber}" (at 98.2 64.9) (layer "F.Mask") (tstamp 7daacfdc-29f9-45ee-8ae4-8baf1780251b)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
