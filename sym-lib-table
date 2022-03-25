@@ -20,4 +20,5 @@
   (lib (name "BoxLib-Connectors")(type "KiCad")(uri "${BOXLIB}/Symbols/BoxLib-Connectors.kicad_sym")(options "")(descr ""))
   (lib (name "BoxLib-Capacitors")(type "KiCad")(uri "${BOXLIB}/Symbols/BoxLib-Capacitors.kicad_sym")(options "")(descr ""))
   (lib (name "BoxLib-TestPoints")(type "KiCad")(uri "${BOXLIB}/Symbols/BoxLib-TestPoints.kicad_sym")(options "")(descr ""))
+  (lib (name "BoxLib-Adafruit")(type "KiCad")(uri "${BOXLIB}/Symbols/BoxLib-Adafruit.kicad_sym")(options "")(descr ""))
 )
