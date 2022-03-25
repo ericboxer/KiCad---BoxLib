@@ -22,4 +22,5 @@
   (lib (name "BoxLib-TestPoints")(type "KiCad")(uri "${BOXLIB}/Symbols/BoxLib-TestPoints.kicad_sym")(options "")(descr ""))
   (lib (name "BoxLib-Adafruit")(type "KiCad")(uri "${BOXLIB}/Symbols/BoxLib-Adafruit.kicad_sym")(options "")(descr ""))
   (lib (name "BoxLib-Displays")(type "KiCad")(uri "${BOXLIB}/Symbols/BoxLib-Displays.kicad_sym")(options "")(descr ""))
+  (lib (name "BoxLib-Charge_Controllers")(type "KiCad")(uri "${BOXLIB}/Symbols/BoxLib-Charge_Controllers.kicad_sym")(options "")(descr ""))
 )
