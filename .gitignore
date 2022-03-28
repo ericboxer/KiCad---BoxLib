@@ -107,4 +107,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+/dist
+/BoxLib-Backups
+\#auto_saved_files#
+
 # End of https://www.toptal.com/developers/gitignore/api/kicad,windows,macos,visualstudiocode
