@@ -27,7 +27,7 @@
   (pad "1" smd rect (at -2 -4) (size 2 6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4de8b7be-07f1-404c-8a88-482f6237258c))
   (pad "2" smd rect (at 2 -4) (size 2 6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4d05c369-1610-41df-b27b-85c5053c96b1))
   (pad "2" smd rect (at 2 5.25) (size 2 3.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f8f17b20-c301-4f5d-9118-834af4d50b27))
-  (model "${KIPRJMOD}/3D Models/Wago 2060-452_998-404.stp"
+  (model "${BOXLIB}/3D Models/Wago 2060-452_998-404.stp"
     (offset (xyz -4 6.5 0.25))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

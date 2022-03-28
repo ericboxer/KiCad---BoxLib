@@ -162,17 +162,17 @@
   (pad "SCL" thru_hole circle (at -7.62 5.08) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask) (tstamp f8fd3b2c-9550-4b51-be47-a8d9567c972f))
   (pad "SDA" thru_hole circle (at -7.62 2.54) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask) (tstamp 2d916084-6196-4479-adf2-d8e271fa0c32))
   (pad "TX" thru_hole circle (at -7.62 7.62) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask) (tstamp a5dfaf18-d33f-45c4-b76f-2a5051ec9118))
-  (model "${KIPRJMOD}/3D Models/qtpy.step"
+  (model "${BOXLIB}/3D Models/qtpy.step"
     (offset (xyz -8.89 -10.3632 1.905))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/3D Models/TSW-107-07-G-S.stp"
+  (model "${BOXLIB}/3D Models/TSW-107-07-G-S.stp"
     (offset (xyz 7.62 0 2.54))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 90))
   )
-  (model "${KIPRJMOD}/3D Models/TSW-107-07-G-S.stp"
+  (model "${BOXLIB}/3D Models/TSW-107-07-G-S.stp"
     (offset (xyz -7.62 0 2.54))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 90))

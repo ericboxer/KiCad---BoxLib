@@ -41,12 +41,12 @@
   (pad "SDCD" thru_hole circle (at 10.16 10.63625) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 1359a396-ad16-4df0-a42d-b7ef9e69f9f2))
   (pad "TFTCS" thru_hole circle (at 2.54 10.63625) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 14cc8408-56ae-44ae-b022-c44f7274c14f))
   (pad "VIN" thru_hole roundrect (at -12.7 10.63625) (size 2 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp fcd96dcd-6cdc-45c0-83c0-c6005ec65368))
-  (model "${KIPRJMOD}/3D Models/Adafruit-4383.step"
+  (model "${BOXLIB}/3D Models/Adafruit-4383.step"
     (offset (xyz 0 1.999996 -4.445))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
-  (model "${KIPRJMOD}/3D Models/TSW-111-07-G-S.stp"
+  (model "${BOXLIB}/3D Models/TSW-111-07-G-S.stp"
     (offset (xyz 0 -10.6172 2.54))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))
