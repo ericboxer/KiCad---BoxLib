@@ -1261,7 +1261,7 @@
     (property "Value" "USB4110-GF-A" (id 1) (at 1.905 -15.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "BoxLib:GCT-USB4110-GF-A" (id 2) (at 28.575 13.97 0)
+    (property "Footprint" "BoxLib:Connector-USB-C-Horizontal-SMD-GCT-USB4110-GF-A" (id 2) (at 28.575 13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://gct.co/files/drawings/usb4110.pdf" (id 3) (at 29.845 13.97 0)
