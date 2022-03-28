@@ -66,11 +66,11 @@
     (symbol "QT_Py_0_0"
       (pin bidirectional line (at 1.27 17.78 270) (length 2.54)
         (name "3v" (effects (font (size 1.27 1.27))))
-        (number "3v" (effects (font (size 1.27 1.27))))
+        (number "3V" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at -1.27 17.78 270) (length 2.54)
         (name "5v" (effects (font (size 1.27 1.27))))
-        (number "5v" (effects (font (size 1.27 1.27))))
+        (number "5V" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -15.24 7.62 0) (length 2.54)
         (name "A0/D0" (effects (font (size 1.27 1.27))))
