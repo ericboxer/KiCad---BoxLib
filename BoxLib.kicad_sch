@@ -1596,7 +1596,7 @@
   (symbol (lib_id "BoxLib-LEDs:LED-LTST-C155GEKT") (at 154.94 105.41 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cfdfa8c8-35d8-45dc-a3f3-e836c8fa5543)
-    (property "Reference" "D?" (id 0) (at 151.13 96.52 0)
+    (property "Reference" "D1" (id 0) (at 151.13 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "" (id 1) (at 154.94 90.17 0)
@@ -1794,7 +1794,7 @@
 
   (symbol_instances
     (path "/cfdfa8c8-35d8-45dc-a3f3-e836c8fa5543"
-      (reference "D?") (unit 1) (value "LED-LTST-C155GEKT") (footprint "BoxLib:LED-LTST-C155GEKT")
+      (reference "D1") (unit 1) (value "LED-LTST-C155GEKT") (footprint "BoxLib:LED-LTST-C155GEKT")
     )
     (path "/98ca5169-231d-4f6e-bb1a-cdb364a5a08d"
       (reference "DS1") (unit 1) (value "Adafruit-4383") (footprint "BoxLib:Adafruit-1_14-tft-display-4383")
