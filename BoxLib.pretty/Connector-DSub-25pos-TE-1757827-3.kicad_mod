@@ -44,6 +44,8 @@
   (fp_arc (start 17.624994 1.799999) (mid 17.295557 2.305008) (end 16.724994 2.499999) (layer "F.SilkS") (width 0.12) (tstamp 6dfcecd8-0c3d-4ee5-afa9-9bd0064f7aca))
   (fp_arc (start -16.725006 2.499999) (mid -17.295569 2.305009) (end -17.625006 1.799999) (layer "F.SilkS") (width 0.12) (tstamp a25223dd-b2ed-4161-a1d5-a2f889881f94))
   (fp_rect (start -27.5 -6.4) (end 27.5 6.4) (layer "F.CrtYd") (width 0.1) (fill none) (tstamp 9906ac2a-f33d-42b1-8009-052b7eefd31f))
+  (pad "0" thru_hole circle (at 23.52 0 270) (size 5 5) (drill 3.25) (layers *.Cu *.Mask "F.Paste") (tstamp 77df8f55-9551-49f8-b91f-77a19e03bd87))
+  (pad "0" thru_hole circle (at -23.52 0 270) (size 5 5) (drill 3.25) (layers *.Cu *.Mask "F.Paste") (tstamp a107354f-77a1-4378-9142-5cf00d5d8d65))
   (pad "1" thru_hole roundrect (at -16.56 -1.42 270) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp 4be5f189-a883-4cd3-96df-7b902be711ed))
   (pad "2" thru_hole circle (at -13.82 -1.42 270) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask) (tstamp b598f0c1-9c7e-42f2-bf70-2e5fa6151787))
   (pad "3" thru_hole circle (at -11.05 -1.42 270) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask) (tstamp 13fe4c27-30f3-435c-8c90-9c96c8b89de5))
@@ -69,8 +71,6 @@
   (pad "23" thru_hole circle (at 9.68 1.42 270) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask) (tstamp 06850273-93fe-4911-83ce-78c3fb20579d))
   (pad "24" thru_hole circle (at 12.42 1.42 270) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask) (tstamp 19c51fcd-aa83-4662-8ebd-a268833cff43))
   (pad "25" thru_hole circle (at 15.19 1.42 270) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask) (tstamp d9b29a18-10c4-4374-9fc6-76b35c737d8d))
-  (pad "M1" thru_hole circle (at -23.52 0 270) (size 5 5) (drill 3.25) (layers *.Cu *.Mask "F.Paste") (tstamp a107354f-77a1-4378-9142-5cf00d5d8d65))
-  (pad "M2" thru_hole circle (at 23.52 0 270) (size 5 5) (drill 3.25) (layers *.Cu *.Mask "F.Paste") (tstamp 77df8f55-9551-49f8-b91f-77a19e03bd87))
   (group "" (id bb6ec3a6-ab47-40ba-8f71-320c99404004)
     (members
       12d78d3c-6961-42ee-b823-5d63b6d00fdf
