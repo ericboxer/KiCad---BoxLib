@@ -224,7 +224,7 @@
     (property "Footprint" "BoxLib:D-PAK" (id 2) (at 10.16 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Infineon%20PDFs/IRLR8721PbF,IRLU8721PbF.pdf" (id 3) (at 10.16 0 0)
+    (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Infineon%20PDFs/IRLR8721PbF,IRLU8721PbF.pdf" (id 3) (at 3.81 13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "N-Channel 30V 65A (Tc) 65W (Tc) Surface Mount D-Pak" (id 4) (at 0 0 0)

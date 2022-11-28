@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 88c459b2-cb1d-416c-89d9-32f393f42ff3)
   )
-  (fp_text value "SD-GCT-MEM2075-00-140-01-A" (at 0 16.2 unlocked) (layer "F.Fab")
+  (fp_text value "SD-GCT-MEM2075-00-140-01-A" (at 0 10.6 unlocked) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a0eb7e08-70b9-4c97-ab7f-32c4fc1f967a)
   )
