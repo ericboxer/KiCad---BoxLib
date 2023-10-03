@@ -863,6 +863,16 @@
     (property "ki_description" "N-Channel 30 V 12A (Ta) 2W (Ta), 16W (Tc) Surface Mount 8-HSMT (3.2x3)" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "RQ3E120GNTB_1_0"
+      (pin passive line (at 1.27 5.08 270) (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 1.27 5.08 270) (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "RQ3E120GNTB_1_1"
       (polyline
         (pts
@@ -971,7 +981,7 @@
       )
       (pin passive line (at 1.27 5.08 270) (length 2.54)
         (name "S" (effects (font (size 1.27 1.27))))
-        (number "1,2,3" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -6.35 1.27 0) (length 2.54)
         (name "G" (effects (font (size 1.27 1.27))))
