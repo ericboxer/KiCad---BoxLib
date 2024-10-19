@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-My personal KiCAD library. Partially because I'm swtiching from EAGLE and needed a way to learn, partially because I like having a little control over my libraries.
+My personal KiCAD library. 
 
 ## How to use
 
