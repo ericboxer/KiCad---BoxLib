@@ -216,7 +216,7 @@
 			(justify right)
 		)
 	)
-	(fp_text user "${Pin34}"
+	(fp_text user "${Pin40}"
 		(at 3.6 24.13 0)
 		(unlocked yes)
 		(layer "F.SilkS")
