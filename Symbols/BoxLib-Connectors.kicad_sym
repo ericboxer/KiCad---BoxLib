@@ -10771,7 +10771,7 @@
 			)
 		)
 		(property "Description" "TC2030 SWD STM32"
-			(at 0 0 0)
+			(at 0 -9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10781,7 +10781,7 @@
 		)
 		(symbol "TC2030-IDC_0_0"
 			(pin bidirectional line
-				(at -10.16 0 0)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "SWDIO"
 					(effects
@@ -10799,7 +10799,7 @@
 				)
 			)
 			(pin output line
-				(at -10.16 -2.54 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "RESET"
 					(effects
@@ -10835,7 +10835,7 @@
 				)
 			)
 			(pin power_out line
-				(at 10.16 0 180)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "GND"
 					(effects
