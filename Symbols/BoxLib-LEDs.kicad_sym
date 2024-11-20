@@ -23,7 +23,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BoxLib:LED-Wurth-157102B12800"
 			(at -11.43 -2.54 0)
 			(effects
 				(font
