@@ -1,0 +1,170 @@
+(footprint "Capacitor-0805_Polarized"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.2 0 90)
+		(layer "F.SilkS")
+		(uuid "9f9ca0b7-e821-4526-981d-c4eb32085c5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Capacitor 0805 Polarized"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "0b94b2bd-d3f7-44ad-81dc-579a2997f41b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76344b48-ec24-4926-85a0-14aabf480a97")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33978e80-e6ff-491b-a90b-fca3fcd4149e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39e91f7a-bd33-4274-95b4-aa1c49d96067")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.9 -1)
+		(end -1.9 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9c45ff18-5b60-40bd-9f43-d926943f828a")
+	)
+	(fp_line
+		(start 0.95 -1)
+		(end -1 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56f31c5f-477b-49b6-a115-666ce2210efa")
+	)
+	(fp_line
+		(start 0.95 1)
+		(end -1 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2dd5934-7f7c-41f1-8992-4c1b30f2d56a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.15 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4ef7e5f0-3e1a-41ef-b4d4-48f5e9dda9ac")
+	)
+	(fp_line
+		(start -1.75 -1)
+		(end 1.725 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24e462fb-9407-478b-a23c-a158116ab0bd")
+	)
+	(fp_line
+		(start -1.75 1)
+		(end -1.75 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f068a557-d293-458c-87c3-7639d5ae1a82")
+	)
+	(fp_line
+		(start 1.75 -1)
+		(end 1.75 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f0e94d1-70a9-4953-ad89-e8ae89c9ac6a")
+	)
+	(fp_line
+		(start 1.75 1)
+		(end -1.75 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5f76fe1-81cd-443d-9633-73b19de32038")
+	)
+	(pad "A" smd roundrect
+		(at -0.95 0)
+		(size 1 1.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ba892319-34e5-4472-81ae-9258c2b3e589")
+	)
+	(pad "C" smd rect
+		(at 0.95 0)
+		(size 1 1.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "71a962b9-6f1a-4387-997c-7744d886ccaa")
+	)
+	(model "${BOXLIB}/3D Models/c-0805 polarized.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 180)
+		)
+	)
+)
