@@ -1,32 +1,113 @@
-(footprint "Resistor-SMD-0402" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 613D59E6)
-  (attr smd)
-  (fp_text reference "REF**" (at -0.825 0 180) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)) (justify right))
-    (tstamp f007eacd-cde9-49e9-b1d1-4508796cc6a6)
-  )
-  (fp_text value "Resistor-SMD-0402" (at 0 -1.6) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp c5659d85-4e68-4ee7-aea7-324cee125bb2)
-  )
-  (fp_text user "${REFERENCE}" (at 0 -0.025) (layer "F.Fab")
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-    (tstamp 9918c5b5-1c15-4ec9-ae58-aee6884a34b0)
-  )
-  (fp_poly (pts
-      (xy 0.05 0.05)
-      (xy -0.05 0.05)
-      (xy -0.05 -0.05)
-      (xy 0.05 -0.05)
-    ) (layer "F.SilkS") (width 0.1) (fill solid) (tstamp d13e8b6d-8b82-4ae1-a8ab-4cc22756669a))
-  (fp_rect (start -0.8 -0.35) (end 0.8 0.35) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp ba6db0fe-c815-428c-b414-0629c70e92b6))
-  (fp_rect (start -0.5 -0.25) (end 0.5 0.25) (layer "F.Fab") (width 0.1) (fill none) (tstamp 26cab1bc-e96a-48db-984a-78618023bbe7))
-  (pad "1" smd roundrect (at -0.5 0) (size 0.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 879dcbdf-30dc-4f81-b637-1fd4000b50f1))
-  (pad "2" smd rect (at 0.5 0) (size 0.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 097c0309-c6c3-4ba8-be84-f8e75f093831))
-  (model "${BOXLIB}/3D Models/Resistor_0402.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "Resistor-SMD-0402"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.825 0 180)
+		(layer "F.SilkS")
+		(uuid "f007eacd-cde9-49e9-b1d1-4508796cc6a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
+	(property "Value" "Resistor-SMD-0402"
+		(at 0 -1.6 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5659d85-4e68-4ee7-aea7-324cee125bb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0708cc9-d4d9-41c6-8033-4983151c59f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fee1639-c308-4833-be7a-e64e9c33cda7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 0.05 0.05) (xy -0.05 0.05) (xy -0.05 -0.05) (xy 0.05 -0.05)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d13e8b6d-8b82-4ae1-a8ab-4cc22756669a")
+	)
+	(fp_rect
+		(start -0.75 -0.35)
+		(end 0.75 0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ba6db0fe-c815-428c-b414-0629c70e92b6")
+	)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "26cab1bc-e96a-48db-984a-78618023bbe7")
+	)
+	(pad "1" smd rect
+		(at -0.5 0)
+		(size 0.4 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "879dcbdf-30dc-4f81-b637-1fd4000b50f1")
+	)
+	(pad "2" smd rect
+		(at 0.5 0)
+		(size 0.4 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "097c0309-c6c3-4ba8-be84-f8e75f093831")
+	)
+	(embedded_fonts no)
+	(model "${BOXLIB}/3D Models/Resistor_0402.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "Maxim MAX6956AAI+T"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -67,6 +67,96 @@
 			)
 		)
 		(symbol "Maxim MAX6956AAI+T_0_0"
+			(pin input line
+				(at -13.97 21.59 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -13.97 19.05 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -13.97 -19.05 0)
+				(length 2.54)
+				(name "AD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -13.97 -21.59 0)
+				(length 2.54)
+				(name "AD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -1.27 30.48 270)
+				(length 2.54)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
 				(at 1.27 30.48 270)
 				(length 2.54)
@@ -78,6 +168,132 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -30.48 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -30.48 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 13.97 24.13 180)
+				(length 2.54)
+				(name "P12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 21.59 180)
+				(length 2.54)
+				(name "P13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 19.05 180)
+				(length 2.54)
+				(name "P14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 16.51 180)
+				(length 2.54)
+				(name "P15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 13.97 180)
+				(length 2.54)
+				(name "P16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -265,24 +481,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 2.54 -30.48 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at 13.97 -13.97 180)
 				(length 2.54)
@@ -373,17 +571,109 @@
 					)
 				)
 			)
+		)
+		(symbol "Maxim MAX6956AAI+T_0_1"
+			(rectangle
+				(start -11.43 27.94)
+				(end 11.43 -27.94)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TI_LP5012"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -10.16 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flp5012"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 4.826 -22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "MPN" "LP5012RUKR"
+			(at 4.826 -24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "ki_fp_filters" "*WQFN*20*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TI_LP5012_0_0"
 			(pin input line
-				(at -13.97 21.59 0)
+				(at -12.7 17.78 0)
 				(length 2.54)
-				(name "SDA"
+				(name "EN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "25"
+				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -392,7 +682,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 19.05 0)
+				(at -12.7 12.7 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -401,7 +691,25 @@
 						)
 					)
 				)
-				(number "26"
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 10.16 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -410,16 +718,16 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -21.59 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
-				(name "AD1"
+				(name "ADDR1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "27"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -428,16 +736,52 @@
 				)
 			)
 			(pin input line
-				(at -1.27 30.48 270)
+				(at -12.7 2.54 0)
 				(length 2.54)
-				(name "V+"
+				(name "ADDR0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "28"
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "VCAP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -12.7 0)
+				(length 2.54)
+				(name "IREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -446,9 +790,63 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -30.48 90)
+				(at 0 24.13 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -24.13 90)
 				(length 2.54)
 				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 17.78 180)
+				(length 2.54)
+				(name "Out0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 15.24 180)
+				(length 2.54)
+				(name "Out1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -463,10 +861,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -13.97 -19.05 0)
+			(pin output line
+				(at 12.7 12.7 180)
 				(length 2.54)
-				(name "AD0"
+				(name "Out2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -482,9 +880,9 @@
 				)
 			)
 			(pin output line
-				(at 13.97 24.13 180)
+				(at 12.7 7.62 180)
 				(length 2.54)
-				(name "P12"
+				(name "Out3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -499,10 +897,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 13.97 21.59 180)
+			(pin output line
+				(at 12.7 5.08 180)
 				(length 2.54)
-				(name "P13"
+				(name "Out4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -517,10 +915,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 13.97 19.05 180)
+			(pin output line
+				(at 12.7 2.54 180)
 				(length 2.54)
-				(name "P14"
+				(name "Out5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -535,10 +933,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 13.97 16.51 180)
+			(pin output line
+				(at 12.7 -2.54 180)
 				(length 2.54)
-				(name "P15"
+				(name "Out6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -553,10 +951,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 13.97 13.97 180)
+			(pin output line
+				(at 12.7 -5.08 180)
 				(length 2.54)
-				(name "P16"
+				(name "Out7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -571,11 +969,83 @@
 					)
 				)
 			)
+			(pin output line
+				(at 12.7 -7.62 180)
+				(length 2.54)
+				(name "Out8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -12.7 180)
+				(length 2.54)
+				(name "Out9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -15.24 180)
+				(length 2.54)
+				(name "Out10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -17.78 180)
+				(length 2.54)
+				(name "Out11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
-		(symbol "Maxim MAX6956AAI+T_0_1"
+		(symbol "TI_LP5012_0_1"
 			(rectangle
-				(start -11.43 27.94)
-				(end 11.43 -27.94)
+				(start -10.16 21.59)
+				(end 10.16 -21.59)
 				(stroke
 					(width 0)
 					(type default)
@@ -585,5 +1055,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

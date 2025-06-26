@@ -1,0 +1,106 @@
+(footprint "Fuse-littelfuse-448"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7bfe8b9d-01b8-4ac7-bfc6-d6d881cf099a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at -12.2 -10.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67efff0f-667e-48b7-98a1-984df6e289fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56137438-8bab-4a1c-9fe3-3096427fbe34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ce8406e-9a9f-4d72-9913-85744dcff2e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.5 -1.72)
+		(end 3.5 1.72)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f0a64c4f-4626-4924-ab98-dc7c9446dcc8")
+	)
+	(fp_rect
+		(start -3.15 -1.47)
+		(end 3.15 1.47)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d71084ca-10e9-4127-8ab1-5319195e9c4e")
+	)
+	(pad "1" smd rect
+		(at -2.405 0)
+		(size 1.96 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "0136f754-4182-40d9-a6af-601e47a3994c")
+	)
+	(pad "2" smd rect
+		(at 2.405 0)
+		(size 1.96 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "655554af-1a89-4e01-ba59-791df13537b0")
+	)
+	(embedded_fonts no)
+	(model "${BOXLIB}/3D Models/littelfuse_448.STEP"
+		(offset
+			(xyz 0 -1.48 1.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

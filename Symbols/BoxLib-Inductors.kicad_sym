@@ -1,427 +1,1637 @@
-(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "Eaton-FPT705" (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (id 0) (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Eaton-FPT705" (id 1) (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Inductor-Eaton-FPT705" (id 2) (at 0 10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-fpt705-high-current-power-inductors-data-sheet.pdf" (id 3) (at 0 12.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Eaton" (id 4) (at 2.54 -6.35 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "MPN" (id 5) (at 3.81 -8.89 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "IND" "IND" (id 6) (at -3.81 -6.35 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (symbol "Eaton-FPT705_0_1"
-      (arc (start -1.905 -1.27) (mid -2.5514 -1.905) (end -1.905 -2.54)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start -1.905 0) (mid -2.5514 -0.635) (end -1.905 -1.27)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start -1.905 1.27) (mid -1.2947 1.905) (end -1.905 2.54)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start -1.8824 1.27) (mid -2.5288 0.635) (end -1.8824 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.905 -2.54)
-          (xy -3.81 -2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.905 2.54)
-          (xy -3.81 2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.254 2.54)
-          (xy -0.254 -2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.254 2.54)
-          (xy 0.254 -2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.905 2.54)
-          (xy 3.81 2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 -2.54)
-          (xy 1.905 -2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 1.8572 0) (mid 2.5036 0.635) (end 1.8572 1.27)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 1.8798 -2.54) (mid 2.5262 -1.905) (end 1.8798 -1.27)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 1.8798 -1.27) (mid 2.5262 -0.635) (end 1.8798 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 1.8798 2.54) (mid 1.2695 1.905) (end 1.8798 1.27)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "Eaton-FPT705_1_1"
-      (pin passive line (at -5.08 2.54 0) (length 1.5)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -2.54 0) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 5.08 -2.54 180) (length 1.27)
-        (name "3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 5.08 2.54 180) (length 1.27)
-        (name "4" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Eaton-FPT705-230-R" (extends "Eaton-FPT705")
-    (property "Reference" "L" (id 0) (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Eaton-FPT705-230-R" (id 1) (at 0 7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Inductor-Eaton-FPT705" (id 2) (at 0 10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-fpt705-high-current-power-inductors-data-sheet.pdf" (id 3) (at 0 12.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Eaton" (id 4) (at 2.54 -3.81 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "FPT705-230-R" (id 5) (at 2.54 -6.35 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "IND" "230" (id 6) (at -2.54 -3.81 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-  )
-  (symbol "Monolitich-MPL-AL5050" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (id 0) (at -3.81 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Monolitich-MPL-AL5050" (id 1) (at -1.27 7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Inductor-MPL-AL5050" (id 2) (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "MPS" (id 4) (at 2.54 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "MPL-AL5050" (id 5) (at 2.54 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Inductance" "IND" (id 6) (at -3.81 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (symbol "Monolitich-MPL-AL5050_0_1"
-      (arc (start -1.27 0) (mid -1.905 0.6103) (end -2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start -1.27 0.0226) (mid -0.635 -0.6238) (end 0 0.0226)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.635 -0.6464) (end 1.27 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 1.27 0) (mid 1.905 -0.6464) (end 2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "Monolitich-MPL-AL5050_1_1"
-      (pin passive line (at -3.81 0 0) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 3.81 0 180) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Monolithic-AL5050-100" (extends "Monolitich-MPL-AL5050")
-    (property "Reference" "L" (id 0) (at -3.81 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Monolithic-AL5050-100" (id 1) (at -1.27 7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Inductor-MPL-AL5050" (id 2) (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPL-AL5050-100/document_id/5809/" (id 3) (at 0 10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "MPS" (id 4) (at 2.54 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "MPL-AL5050-100" (id 5) (at 2.54 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Inductance" "10uH" (id 6) (at -3.81 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-  )
-  (symbol "Murata-DG045C" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (id 0) (at -3.81 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Murata-DG045C" (id 1) (at 0 3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Inductor-Murata-DG6045C" (id 2) (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243B-0037_DG6045C_reference.pdf" (id 3) (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Murata" (id 4) (at 1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "1255AY" (id 5) (at 1.27 -3.81 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Inductance" "IND" (id 6) (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (symbol "Murata-DG045C_0_1"
-      (arc (start -1.27 0) (mid -1.905 0.6103) (end -2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start -1.27 0.0226) (mid -0.635 -0.6238) (end 0 0.0226)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.635 -0.6464) (end 1.27 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 1.27 0) (mid 1.905 -0.6464) (end 2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "Murata-DG045C_1_1"
-      (pin passive line (at -3.81 0 0) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 3.81 0 180) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Murata-DG045C-4.7uH" (extends "Murata-DG045C")
-    (property "Reference" "L" (id 0) (at -3.81 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Murata-DG045C-4.7uH" (id 1) (at 0 3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Inductor-Murata-DG6045C" (id 2) (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243B-0037_DG6045C_reference.pdf" (id 3) (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Murata" (id 4) (at 1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "1255AY-4R7M=P3" (id 5) (at 1.27 -3.81 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Inductance" "4.7uH" (id 6) (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "ki_description" "FIXED IND 4.7UH 4A 23 MOHM SMD" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Murata-LQH5BPN" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (id 0) (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Murata-LQH5BPN" (id 1) (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Inductor-Murata-LQH5BPN" (id 2) (at 0 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0122.pdf" (id 3) (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Murata" (id 4) (at 2.54 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "MPN" (id 5) (at 2.54 -3.81 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "IND" "IND" (id 6) (at -2.54 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (symbol "Murata-LQH5BPN_0_1"
-      (arc (start -1.27 0) (mid -1.905 0.6103) (end -2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start -1.27 0.0226) (mid -0.635 -0.6238) (end 0 0.0226)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.635 -0.6464) (end 1.27 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 1.27 0) (mid 1.905 -0.6464) (end 2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "Murata-LQH5BPN_1_1"
-      (pin passive line (at -3.81 0 0) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 3.81 0 180) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Murata-LQH5BPN4R7N38L" (extends "Murata-LQH5BPN")
-    (property "Reference" "L" (id 0) (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Murata-LQH5BPN4R7N38L" (id 1) (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Inductor-Murata-LQH5BPN" (id 2) (at 0 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0122.pdf" (id 3) (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Murata" (id 4) (at 2.54 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "LQH5BPN4R7N38L" (id 5) (at 2.54 -3.81 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "IND" "4.7uF" (id 6) (at -2.54 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "ki_description" "FIXED IND 4.7UH 3.8A 31.2MOHM SM" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Wurth-HCM-744309033" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (id 0) (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Wurth-HCM-744309033" (id 1) (at -1.27 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Inductor-Wurth-744309033" (id 2) (at 0 7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.we-online.com/katalog/datasheet/744309033.pdf" (id 3) (at 0 10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Wurth" (id 4) (at 6.35 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "744309033" (id 5) (at 6.35 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "IND" "330nH" (id 6) (at -3.81 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (symbol "Wurth-HCM-744309033_0_1"
-      (arc (start -1.27 0) (mid -1.905 0.6103) (end -2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start -1.27 0.0226) (mid -0.635 -0.6238) (end 0 0.0226)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.635 -0.6464) (end 1.27 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 1.27 0) (mid 1.905 -0.6464) (end 2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "Wurth-HCM-744309033_1_1"
-      (pin passive line (at -3.81 0 0) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 3.81 0 180) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "Eaton-FPT705"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Eaton-FPT705"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Inductor-Eaton-FPT705"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-fpt705-high-current-power-inductors-data-sheet.pdf"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton"
+			(at 2.54 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MPN"
+			(at 3.81 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IND" "IND"
+			(at -3.81 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(symbol "Eaton-FPT705_0_1"
+			(arc
+				(start -1.905 2.54)
+				(mid -1.2947 1.905)
+				(end -1.905 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 2.54) (xy -3.81 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -2.54) (xy -3.81 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.905 -1.27)
+				(mid -2.5287 -0.635)
+				(end -1.905 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.905 -2.54)
+				(mid -2.5287 -1.905)
+				(end -1.905 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.8824 0)
+				(mid -2.5061 0.635)
+				(end -1.8824 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.254 2.54) (xy -0.254 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 2.54) (xy 0.254 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.8572 1.27)
+				(mid 2.4809 0.635)
+				(end 1.8572 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.8798 0)
+				(mid 2.5036 -0.635)
+				(end 1.8798 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.8798 -1.27)
+				(mid 2.5036 -1.905)
+				(end 1.8798 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 2.54) (xy 3.81 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.8798 1.27)
+				(mid 1.2695 1.905)
+				(end 1.8798 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -2.54) (xy 1.905 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Eaton-FPT705_1_1"
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 1.5)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 2.54 180)
+				(length 1.27)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 1.27)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Generic Indicutor"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -3.556 1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" ""
+			(at 0 -1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Generic Indicutor_0_1"
+			(arc
+				(start -2.54 0.0504)
+				(mid -1.905 0.6607)
+				(end -1.27 0.0504)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 -0.0226)
+				(mid -0.635 0.6012)
+				(end 0 -0.0226)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.635 0.6238)
+				(end 1.27 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 0)
+				(mid 1.905 0.6238)
+				(end 2.54 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Generic Indicutor_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Monolitich-MPL-AL5050"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -3.81 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Monolitich-MPL-AL5050"
+			(at -1.27 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Inductor-MPL-AL5050"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MPS"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MPL-AL5050"
+			(at 2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Inductance" "IND"
+			(at -3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(symbol "Monolitich-MPL-AL5050_0_1"
+			(arc
+				(start -2.54 0)
+				(mid -1.905 0.6103)
+				(end -1.27 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0.0226)
+				(mid -0.635 -0.6012)
+				(end -1.27 0.0226)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 0)
+				(mid 0.635 -0.6238)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 1.905 -0.6238)
+				(end 1.27 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Monolitich-MPL-AL5050_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Murata-DG045C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -3.81 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Murata-DG045C"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Inductor-Murata-DG6045C"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243B-0037_DG6045C_reference.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "1255AY"
+			(at 1.27 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Inductance" "IND"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(symbol "Murata-DG045C_0_1"
+			(arc
+				(start -2.54 0)
+				(mid -1.905 0.6103)
+				(end -1.27 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0.0226)
+				(mid -0.635 -0.6012)
+				(end -1.27 0.0226)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 0)
+				(mid 0.635 -0.6238)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 1.905 -0.6238)
+				(end 1.27 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Murata-DG045C_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Murata-LQH5BPN"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Murata-LQH5BPN"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Inductor-Murata-LQH5BPN"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0122.pdf"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MPN"
+			(at 2.54 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IND" "IND"
+			(at -2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(symbol "Murata-LQH5BPN_0_1"
+			(arc
+				(start -2.54 0)
+				(mid -1.905 0.6103)
+				(end -1.27 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0.0226)
+				(mid -0.635 -0.6012)
+				(end -1.27 0.0226)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 0)
+				(mid 0.635 -0.6238)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 1.905 -0.6238)
+				(end 1.27 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Murata-LQH5BPN_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Vishay-IHHP0806ZHER2R2M01"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -3.556 1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2.2uH"
+			(at 0 -1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BoxLib:Inductor-0805"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/34591/ihhp-0806zh-01.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IHHP-0806ZH-01 2.2 20% ER E3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "IHHP0806ZHER2R2M01"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Vishay-IHHP0806ZHER2R2M01_0_1"
+			(arc
+				(start -2.54 0.0504)
+				(mid -1.905 0.6607)
+				(end -1.27 0.0504)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 -0.0226)
+				(mid -0.635 0.6012)
+				(end 0 -0.0226)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.635 0.6238)
+				(end 1.27 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 0)
+				(mid 1.905 0.6238)
+				(end 2.54 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Vishay-IHHP0806ZHER2R2M01_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Wurth-HCM-744309033"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Wurth-HCM-744309033"
+			(at -1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Inductor-Wurth-744309033"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/744309033.pdf"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth"
+			(at 6.35 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "744309033"
+			(at 6.35 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IND" "330nH"
+			(at -3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(symbol "Wurth-HCM-744309033_0_1"
+			(arc
+				(start -2.54 0)
+				(mid -1.905 0.6103)
+				(end -1.27 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0.0226)
+				(mid -0.635 -0.6012)
+				(end -1.27 0.0226)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 0)
+				(mid 0.635 -0.6238)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 1.905 -0.6238)
+				(end 1.27 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Wurth-HCM-744309033_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Eaton-FPT705-230-R"
+		(extends "Eaton-FPT705")
+		(property "Reference" "L"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Eaton-FPT705-230-R"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Inductor-Eaton-FPT705"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-fpt705-high-current-power-inductors-data-sheet.pdf"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton"
+			(at 2.54 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "FPT705-230-R"
+			(at 2.54 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IND" "230"
+			(at -2.54 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol "Monolithic-AL5050-100"
+		(extends "Monolitich-MPL-AL5050")
+		(property "Reference" "L"
+			(at -3.81 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Monolithic-AL5050-100"
+			(at -1.27 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Inductor-MPL-AL5050"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPL-AL5050-100/document_id/5809/"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MPS"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MPL-AL5050-100"
+			(at 2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Inductance" "10uH"
+			(at -3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol "Murata-DG045C-4.7uH"
+		(extends "Murata-DG045C")
+		(property "Reference" "L"
+			(at -3.81 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Murata-DG045C-4.7uH"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Inductor-Murata-DG6045C"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243B-0037_DG6045C_reference.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FIXED IND 4.7UH 4A 23 MOHM SMD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "1255AY-4R7M=P3"
+			(at 1.27 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Inductance" "4.7uH"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol "Murata-LQH5BPN4R7N38L"
+		(extends "Murata-LQH5BPN")
+		(property "Reference" "L"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Murata-LQH5BPN4R7N38L"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Inductor-Murata-LQH5BPN"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0122.pdf"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FIXED IND 4.7UH 3.8A 31.2MOHM SM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "LQH5BPN4R7N38L"
+			(at 2.54 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IND" "4.7uF"
+			(at -2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 )

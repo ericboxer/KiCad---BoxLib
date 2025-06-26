@@ -1,1043 +1,3334 @@
-(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "0157001.DR" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0157001.DR" (id 1) (at 3.81 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "BoxLib:Nano2-157" (id 2) (at 0 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Current" "1.0A" (id 4) (at -3.81 -2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_keywords" "Fuse" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Littlefuse Nano2 157 Quick Blow 1A" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "0157001.DR_0_1"
-      (arc (start 0 0) (mid -1.27 1.27) (end -2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 1.27 -1.27) (end 2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "0157001.DR_1_1"
-      (pin bidirectional line (at -5.08 0 0) (length 2.54)
-        (name "In" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 5.08 0 180) (length 2.54)
-        (name "Out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "0157001.DRT" (extends "0157001.DR")
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0157001.DRT" (id 1) (at 3.81 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "BoxLib:Nano2-157" (id 2) (at 0 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "Fuse" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Littlefuse Nano2 157 Slow Blow 1A" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "0157005.DR" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0157005.DR" (id 1) (at 3.81 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "BoxLib:Nano2-157" (id 2) (at 0 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Current" "5A" (id 4) (at -3.81 -2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_keywords" "Fuse" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Littlefuse Nano2 157 Quick Blow 5A" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "0157005.DR_0_1"
-      (arc (start 0 0) (mid -1.27 1.27) (end -2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 1.27 -1.27) (end 2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "0157005.DR_1_1"
-      (pin bidirectional line (at -5.08 0 0) (length 2.54)
-        (name "In" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 5.08 0 180) (length 2.54)
-        (name "Out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "0157005.DRT" (extends "0157005.DR")
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0157005.DRT" (id 1) (at 3.81 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "BoxLib:Nano2-157" (id 2) (at 0 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "Fuse" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Littlefuse Nano2 157 Slow Blow 5A" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "015701.5DR" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "015701.5DR" (id 1) (at 3.81 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "BoxLib:Nano2-157" (id 2) (at 0 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Current" "1.5A" (id 4) (at -3.81 -2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_keywords" "Fuse" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Littlefuse Nano2 157 Quick Blow 1.5A" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "015701.5DR_0_1"
-      (arc (start 0 0) (mid -1.27 1.27) (end -2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 1.27 -1.27) (end 2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "015701.5DR_1_1"
-      (pin bidirectional line (at -5.08 0 0) (length 2.54)
-        (name "In" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 5.08 0 180) (length 2.54)
-        (name "Out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "015701.5DRT" (extends "015701.5DR")
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "015701.5DRT" (id 1) (at 3.81 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "BoxLib:Nano2-157" (id 2) (at 0 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "Fuse" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Littlefuse Nano2 157 Slow Blow 1.5A" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "0157500.DR" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0157500.DR" (id 1) (at 3.81 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "BoxLib:Nano2-157" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Current" "0.5A" (id 4) (at -3.81 -2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "MPN" "0157500.DR" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "Fuse" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Littlefuse Nano2 157 Quick Blow 0.5A" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "0157500.DR_0_1"
-      (arc (start 0 0) (mid -1.27 1.27) (end -2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 1.27 -1.27) (end 2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "0157500.DR_1_1"
-      (pin bidirectional line (at -5.08 0 0) (length 2.54)
-        (name "In" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 5.08 0 180) (length 2.54)
-        (name "Out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "0157500.DRT" (extends "0157500.DR")
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0157500.DRT" (id 1) (at 3.81 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "BoxLib:Nano2-157" (id 2) (at 0 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "Fuse" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Littlefuse Nano2 157 Slow Blow 0.5A" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "0ZRS1000FF1A" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "F" (id 0) (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "0ZRS1000FF1A" (id 1) (at 7.62 -3.175 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "BoxLib:Bel-0ZRS1000FF" (id 2) (at 0 -6.985 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zrs-series.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Bel Fuse" (id 4) (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0ZRS1000FF1A" (id 5) (at 7.62 -3.175 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Trip Current" "20a" (id 6) (at -3.175 -3.175 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_description" "20a PTC Fuse 32vdc max 10a hold 15s trip" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "0ZRS1000FF1A_0_1"
-      (polyline
-        (pts
-          (xy -2.54 -1.905)
-          (xy -1.905 -1.905)
-          (xy 1.905 1.905)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "0ZRS1000FF1A_1_1"
-      (rectangle (start -2.54 1.016) (end 2.54 -1.016)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at -3.81 0 0) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 3.81 0 180) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "2920L185" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "F" (id 0) (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "2920L185" (id 1) (at 5.715 -2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "BoxLib:Littlefuse-2920L185DR" (id 2) (at 0 8.255 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_2920l_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Littlefuse" (id 4) (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "2920L185" (id 5) (at 0 4.445 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Trip Current" "3.7a" (id 6) (at -3.81 -2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (symbol "2920L185_0_1"
-      (polyline
-        (pts
-          (xy -2.54 -1.905)
-          (xy -1.905 -1.905)
-          (xy 1.905 1.905)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "2920L185_1_1"
-      (rectangle (start -2.54 1.016) (end 2.54 -1.016)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at -3.81 0 0) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 3.81 0 180) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Fuse" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Fuse" (id 1) (at 5.08 -1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Current" "Current" (id 4) (at -7.62 -1.143 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (symbol "Fuse_0_1"
-      (arc (start 0 0) (mid -1.27 1.27) (end -2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 1.27 -1.27) (end 2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "Fuse_1_1"
-      (pin bidirectional line (at -5.08 0 0) (length 2.54)
-        (name "In" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 5.08 0 180) (length 2.54)
-        (name "Out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Littelfuse_154" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "F" (id 0) (at -2.794 2.794 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_154" (id 1) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" (id 3) (at 0 -0.127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Current" "Current" (id 4) (at -5.207 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Manufacturer" "Littelfuse" (id 5) (at 5.08 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "154_._" (id 6) (at 5.334 -4.699 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Replace With" "Replace with" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Octopart" "" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "154/154T/154L/154TL Series OMNI-BLOK® Fuse and Holder Assembly" (id 9) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Littelfuse_154_0_1"
-      (arc (start 0 0) (mid -1.27 1.27) (end -2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 1.27 -1.27) (end 2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "Littelfuse_154_1_1"
-      (pin bidirectional line (at -5.08 0 0) (length 2.54)
-        (name "In" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 5.08 0 180) (length 2.54)
-        (name "Out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Littelfuse_154_0.5A" (extends "Littelfuse_154")
-    (property "Reference" "F" (id 0) (at -2.794 2.794 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_154_0.5A" (id 1) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" (id 3) (at 0 -0.127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Current" "500mA" (id 4) (at -5.207 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Manufacturer" "Littelfuse" (id 5) (at 5.08 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "0154.500DR" (id 6) (at 5.334 -4.699 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Replace With" "453.5" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Octopart" "" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "154/154T/154L/154TL Series OMNI-BLOK® Fuse and Holder Assembly 500mA" (id 9) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Littelfuse_154_0.5A_Slow" (extends "Littelfuse_154")
-    (property "Reference" "F" (id 0) (at -2.794 2.794 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_154_0.5A_Slow" (id 1) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" (id 3) (at 0 -0.127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Current" "500mA Slow" (id 4) (at -5.207 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Manufacturer" "Littelfuse" (id 5) (at 5.08 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "0154.500DRT" (id 6) (at 5.334 -4.699 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Replace With" "454.5" (id 7) (at 0 -0.127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "154/154T/154L/154TL Series OMNI-BLOK® Fuse and Holder Assembly 500mA Slow Blow" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Littelfuse_154_10A" (extends "Littelfuse_154")
-    (property "Reference" "F" (id 0) (at -2.794 2.794 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_154_10A" (id 1) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" (id 3) (at 0 -0.127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Current" "10A" (id 4) (at -5.207 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Manufacturer" "Littelfuse" (id 5) (at 5.08 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "0154010.DR" (id 6) (at 5.334 -4.699 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Replace With" "453010.0" (id 7) (at 0 -0.127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "154/154T/154L/154TL Series OMNI-BLOK® Fuse and Holder Assembly" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Littelfuse_154_1A" (extends "Littelfuse_154")
-    (property "Reference" "F" (id 0) (at -2.794 2.794 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_154_1A" (id 1) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" (id 3) (at 0 -0.127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Current" "1A" (id 4) (at -5.207 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Manufacturer" "Littelfuse" (id 5) (at 5.08 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "0154001.DR" (id 6) (at 5.334 -4.699 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Replace With" "453001.0" (id 7) (at 0 -0.127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "154/154T/154L/154TL Series OMNI-BLOK® Fuse and Holder Assembly" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Littelfuse_154_1A_Slow" (extends "Littelfuse_154")
-    (property "Reference" "F" (id 0) (at -2.794 2.794 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_154_1A_Slow" (id 1) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" (id 3) (at 0 -0.127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Current" "1A Slow" (id 4) (at -5.207 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Manufacturer" "Littelfuse" (id 5) (at 5.08 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "0154001.DRT" (id 6) (at 5.334 -4.699 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Replace With" "454001.0" (id 7) (at 0 -0.127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "154/154T/154L/154TL Series OMNI-BLOK® Fuse and Holder Assembly" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Littelfuse_154_2A" (extends "Littelfuse_154")
-    (property "Reference" "F" (id 0) (at -2.794 2.794 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_154_2A" (id 1) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Current" "2A" (id 4) (at -5.207 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Manufacturer" "Littelfuse" (id 5) (at 5.08 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "0154002.DR" (id 6) (at 5.334 -4.699 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "ki_description" "154/154T/154L/154TL Series OMNI-BLOK® Fuse and Holder Assembly" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Littelfuse_154_2A_Slow" (extends "Littelfuse_154")
-    (property "Reference" "F" (id 0) (at -2.794 2.794 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_154_2A_Slow" (id 1) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Current" "2A Slow" (id 4) (at -5.207 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Manufacturer" "Littelfuse" (id 5) (at 5.08 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "0154002.DRT" (id 6) (at 5.334 -4.699 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "ki_description" "154/154T/154L/154TL Series OMNI-BLOK® Fuse and Holder Assembly" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Littelfuse_154_5A" (extends "Littelfuse_154")
-    (property "Reference" "F" (id 0) (at -2.794 2.794 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_154_5A" (id 1) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Current" "5A" (id 4) (at -5.207 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Manufacturer" "Littelfuse" (id 5) (at 5.08 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "0154005.DR" (id 6) (at 5.334 -4.699 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "ki_description" "154" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Littelfuse_154_5A_Slow" (extends "Littelfuse_154")
-    (property "Reference" "F" (id 0) (at -2.794 2.794 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_154_5A_Slow" (id 1) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Current" "5A Slow" (id 4) (at -5.207 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Manufacturer" "Littelfuse" (id 5) (at 5.08 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "0154005.DRT" (id 6) (at 5.334 -4.699 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "ki_description" "154" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Littelfuse_157" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_157" (id 1) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Littelfuse" (id 4) (at -7.62 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "157_._" (id 5) (at 2.54 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Replcaement" "Replace With:" (id 6) (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_keywords" "Fuse" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Littlefuse Nano2 157" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Littelfuse_157_0_1"
-      (arc (start 0 0) (mid -1.27 1.27) (end -2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 1.27 -1.27) (end 2.54 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "Littelfuse_157_1_1"
-      (pin bidirectional line (at -5.08 0 0) (length 2.54)
-        (name "In" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 5.08 0 180) (length 2.54)
-        (name "Out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Littelfuse_157_0.5A" (extends "Littelfuse_157")
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_157_0.5A" (id 1) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Littelfuse" (id 4) (at -10.16 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "0157.500DR" (id 5) (at 0 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Replcaement" "Replace With: 0454.500MR" (id 6) (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_keywords" "Fuse" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Littlefuse Nano2 157" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Littelfuse_157_1.5A" (extends "Littelfuse_157")
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_157_1.5A" (id 1) (at -8.89 10.16 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157" (id 2) (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf" (id 3) (at 0 7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Littelfuse" (id 4) (at -7.62 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "015701.5" (id 5) (at 2.54 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Replcaement" "Replace With: 45401.5" (id 6) (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_keywords" "Fuse" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Littlefuse Nano2 157" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Littelfuse_157_10A" (extends "Littelfuse_157")
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_157_10A" (id 1) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Littelfuse" (id 4) (at -7.62 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "0157010.DR" (id 5) (at 2.54 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Replcaement" "Replace With: 453010.0" (id 6) (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_keywords" "Fuse" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Littlefuse Nano2 157" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Littelfuse_157_2.5A" (extends "Littelfuse_157")
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_157_2.5A" (id 1) (at -1.27 8.89 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157" (id 2) (at 0 3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf" (id 3) (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Littelfuse" (id 4) (at -7.62 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "015702.5DR" (id 5) (at 2.54 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Replcaement" "Replace With: 45402.5" (id 6) (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_keywords" "Fuse" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Littlefuse Nano2 157" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Littelfuse_157_2A" (extends "Littelfuse_157")
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_157_2A" (id 1) (at -7.62 8.89 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157" (id 2) (at 0 3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf" (id 3) (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Littelfuse" (id 4) (at -7.62 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "0157002.DR" (id 5) (at 2.54 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Replcaement" "Replace With: 453002.0" (id 6) (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_keywords" "Fuse" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Littlefuse Nano2 157" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Littelfuse_157_5A" (extends "Littelfuse_157")
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_157_5A" (id 1) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Littelfuse" (id 4) (at -11.43 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "0157005.DR" (id 5) (at -1.27 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Replcaement" "Replace With: 454005.0" (id 6) (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_keywords" "Fuse" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Littlefuse Nano2 157" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Littelfuse_157_5A_Slow" (extends "Littelfuse_157")
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_157_5A_Slow" (id 1) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Littelfuse" (id 4) (at -11.43 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "0157005.DRT" (id 5) (at -1.27 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Replcaement" "Replace With: 454005.0" (id 6) (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_keywords" "Fuse" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Littlefuse Nano2 157" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Littelfuse_157_8A" (extends "Littelfuse_157")
-    (property "Reference" "F" (id 0) (at -5.08 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Littelfuse_157_8A" (id 1) (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157" (id 2) (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf" (id 3) (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Littelfuse" (id 4) (at -7.62 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "0157008.DR" (id 5) (at 2.54 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Replcaement" "Replace With: 453008.0" (id 6) (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_keywords" "Fuse" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Littlefuse Nano2 157" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "PTCFuse" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "F" (id 0) (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "PTCFuse" (id 1) (at 0 5.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Man" (id 4) (at 0 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "MPN" (id 5) (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (symbol "PTCFuse_0_1"
-      (polyline
-        (pts
-          (xy -2.54 -1.905)
-          (xy -1.905 -1.905)
-          (xy 1.905 1.905)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "PTCFuse_1_1"
-      (rectangle (start -2.54 1.016) (end 2.54 -1.016)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at -3.81 0 0) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 3.81 0 180) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Bourns-MF-PSMF-PTC-6v-1_1A" (extends "PTCFuse")
-    (property "Reference" "F" (id 0) (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Bourns-MF-PSMF-PTC-6v-1_1A" (id 1) (at 0 5.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "BoxLib:Fuse-Current-PTC-Bourns-MF-PSMF" (id 2) (at -1.27 7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/mfpsmf.pdf" (id 3) (at 0 10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Bourns" (id 4) (at 0 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "MF-PSMF110X" (id 5) (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-  )
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "0157001.DR"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0157001.DR"
+			(at 3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BoxLib:Nano2-157"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littlefuse Nano2 157 Quick Blow 1A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "1.0A"
+			(at -3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "0157001.DR_0_1"
+			(arc
+				(start -2.54 0)
+				(mid -1.27 1.2645)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 1.27 -1.2645)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "0157001.DR_1_1"
+			(pin bidirectional line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "0157005.DR"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0157005.DR"
+			(at 3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BoxLib:Nano2-157"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littlefuse Nano2 157 Quick Blow 5A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "5A"
+			(at -3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "0157005.DR_0_1"
+			(arc
+				(start -2.54 0)
+				(mid -1.27 1.2645)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 1.27 -1.2645)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "0157005.DR_1_1"
+			(pin bidirectional line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "015701.5DR"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "015701.5DR"
+			(at 3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BoxLib:Nano2-157"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littlefuse Nano2 157 Quick Blow 1.5A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "1.5A"
+			(at -3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "015701.5DR_0_1"
+			(arc
+				(start -2.54 0)
+				(mid -1.27 1.2645)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 1.27 -1.2645)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "015701.5DR_1_1"
+			(pin bidirectional line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "0157500.DR"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0157500.DR"
+			(at 3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BoxLib:Nano2-157"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littlefuse Nano2 157 Quick Blow 0.5A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "0.5A"
+			(at -3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0157500.DR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "0157500.DR_0_1"
+			(arc
+				(start -2.54 0)
+				(mid -1.27 1.2645)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 1.27 -1.2645)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "0157500.DR_1_1"
+			(pin bidirectional line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "0ZRS1000FF1A"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0ZRS1000FF1A"
+			(at 7.62 -3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BoxLib:Bel-0ZRS1000FF"
+			(at 0 -6.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zrs-series.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20a PTC Fuse 32vdc max 10a hold 15s trip"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bel Fuse"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0ZRS1000FF1A"
+			(at 7.62 -3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Trip Current" "20a"
+			(at -3.175 -3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "0ZRS1000FF1A_0_1"
+			(polyline
+				(pts
+					(xy -2.54 -1.905) (xy -1.905 -1.905) (xy 1.905 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "0ZRS1000FF1A_1_1"
+			(rectangle
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "2920L185"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2920L185"
+			(at 5.715 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BoxLib:Littlefuse-2920L185DR"
+			(at 0 8.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_2920l_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littlefuse"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2920L185"
+			(at 0 4.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Trip Current" "3.7a"
+			(at -3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "2920L185_0_1"
+			(polyline
+				(pts
+					(xy -2.54 -1.905) (xy -1.905 -1.905) (xy 1.905 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "2920L185_1_1"
+			(rectangle
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Fuse"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 5.08 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "Current"
+			(at -7.62 -1.143 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(symbol "Fuse_0_1"
+			(arc
+				(start -2.54 0)
+				(mid -1.27 1.2645)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 1.27 -1.2645)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Fuse_1_1"
+			(pin bidirectional line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Littelfuse_154"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at -2.794 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_154"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf"
+			(at 0 -0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "154/154T/154L/154TL Series OMNI-BLOK® Fuse and Holder Assembly"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "Current"
+			(at -5.207 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 5.08 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "154_._"
+			(at 5.334 -4.699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Replace With" "Replace with"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Octopart" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Littelfuse_154_0_1"
+			(arc
+				(start -2.54 0)
+				(mid -1.27 1.2645)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 1.27 -1.2645)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Littelfuse_154_1_1"
+			(pin bidirectional line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Littelfuse_157"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_157"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littlefuse Nano2 157"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at -7.62 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "157_._"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Replcaement" "Replace With:"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Littelfuse_157_0_1"
+			(arc
+				(start -2.54 0)
+				(mid -1.27 1.2645)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 1.27 -1.2645)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Littelfuse_157_1_1"
+			(pin bidirectional line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Littelfuse_448"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "A"
+			(at -2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-littelfuse-448"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/fuse-448-datasheet?assetguid=12c1a28d-212b-4f45-9d77-c982b871378a"
+			(at 0.254 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maufacturer" "Littelfuse"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "MPN" "MPN"
+			(at 2.54 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "Littelfuse_448_0_1"
+			(polyline
+				(pts
+					(xy -1.6764 0) (xy -3.8354 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.6637 0.0014)
+				(mid -0.8368 0.8255)
+				(end -0.0127 -0.0014)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.6388 -0.0018)
+				(mid 0.8119 -0.8259)
+				(end -0.0122 0.001)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.651 0) (xy 3.7846 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Littelfuse_448_1_1"
+			(pin passive line
+				(at -6.35 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "PTCFuse"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PTCFuse"
+			(at 0 5.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Man"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MPN"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(symbol "PTCFuse_0_1"
+			(polyline
+				(pts
+					(xy -2.54 -1.905) (xy -1.905 -1.905) (xy 1.905 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PTCFuse_1_1"
+			(rectangle
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "0157001.DRT"
+		(extends "0157001.DR")
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0157001.DRT"
+			(at 3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BoxLib:Nano2-157"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littlefuse Nano2 157 Slow Blow 1A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "0157005.DRT"
+		(extends "0157005.DR")
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0157005.DRT"
+			(at 3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BoxLib:Nano2-157"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littlefuse Nano2 157 Slow Blow 5A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "015701.5DRT"
+		(extends "015701.5DR")
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "015701.5DRT"
+			(at 3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BoxLib:Nano2-157"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littlefuse Nano2 157 Slow Blow 1.5A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "0157500.DRT"
+		(extends "0157500.DR")
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0157500.DRT"
+			(at 3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BoxLib:Nano2-157"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littlefuse Nano2 157 Slow Blow 0.5A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "Bourns-MF-PSMF-PTC-6v-1_1A"
+		(extends "PTCFuse")
+		(property "Reference" "F"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Bourns-MF-PSMF-PTC-6v-1_1A"
+			(at 0 5.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-PTC-Bourns-MF-PSMF"
+			(at -1.27 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/mfpsmf.pdf"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MF-PSMF110X"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol "Littelfuse_154_0.5A"
+		(extends "Littelfuse_154")
+		(property "Reference" "F"
+			(at -2.794 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_154_0.5A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf"
+			(at 0 -0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "154/154T/154L/154TL Series OMNI-BLOK® Fuse and Holder Assembly 500mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "500mA"
+			(at -5.207 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 5.08 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0154.500DR"
+			(at 5.334 -4.699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Replace With" "453.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Octopart" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "Littelfuse_154_0.5A_Slow"
+		(extends "Littelfuse_154")
+		(property "Reference" "F"
+			(at -2.794 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_154_0.5A_Slow"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf"
+			(at 0 -0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "154/154T/154L/154TL Series OMNI-BLOK® Fuse and Holder Assembly 500mA Slow Blow"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "500mA Slow"
+			(at -5.207 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 5.08 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0154.500DRT"
+			(at 5.334 -4.699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Replace With" "454.5"
+			(at 0 -0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "Littelfuse_154_10A"
+		(extends "Littelfuse_154")
+		(property "Reference" "F"
+			(at -2.794 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_154_10A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf"
+			(at 0 -0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "154/154T/154L/154TL Series OMNI-BLOK® Fuse and Holder Assembly"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "10A"
+			(at -5.207 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 5.08 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0154010.DR"
+			(at 5.334 -4.699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Replace With" "453010.0"
+			(at 0 -0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "Littelfuse_154_1A"
+		(extends "Littelfuse_154")
+		(property "Reference" "F"
+			(at -2.794 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_154_1A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf"
+			(at 0 -0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "154/154T/154L/154TL Series OMNI-BLOK® Fuse and Holder Assembly"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at -5.207 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 5.08 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0154001.DR"
+			(at 5.334 -4.699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Replace With" "453001.0"
+			(at 0 -0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "Littelfuse_154_1A_Slow"
+		(extends "Littelfuse_154")
+		(property "Reference" "F"
+			(at -2.794 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_154_1A_Slow"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf"
+			(at 0 -0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "154/154T/154L/154TL Series OMNI-BLOK® Fuse and Holder Assembly"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A Slow"
+			(at -5.207 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 5.08 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0154001.DRT"
+			(at 5.334 -4.699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Replace With" "454001.0"
+			(at 0 -0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "Littelfuse_154_2A"
+		(extends "Littelfuse_154")
+		(property "Reference" "F"
+			(at -2.794 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_154_2A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "154/154T/154L/154TL Series OMNI-BLOK® Fuse and Holder Assembly"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "2A"
+			(at -5.207 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 5.08 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0154002.DR"
+			(at 5.334 -4.699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol "Littelfuse_154_2A_Slow"
+		(extends "Littelfuse_154")
+		(property "Reference" "F"
+			(at -2.794 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_154_2A_Slow"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "154/154T/154L/154TL Series OMNI-BLOK® Fuse and Holder Assembly"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "2A Slow"
+			(at -5.207 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 5.08 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0154002.DRT"
+			(at 5.334 -4.699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol "Littelfuse_154_5A"
+		(extends "Littelfuse_154")
+		(property "Reference" "F"
+			(at -2.794 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_154_5A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "154"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "5A"
+			(at -5.207 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 5.08 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0154005.DR"
+			(at 5.334 -4.699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol "Littelfuse_154_5A_Slow"
+		(extends "Littelfuse_154")
+		(property "Reference" "F"
+			(at -2.794 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_154_5A_Slow"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-Littelfuse-Nano2_154"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "154"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "5A Slow"
+			(at -5.207 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 5.08 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0154005.DRT"
+			(at 5.334 -4.699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol "Littelfuse_157_0.5A"
+		(extends "Littelfuse_157")
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_157_0.5A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littlefuse Nano2 157"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at -10.16 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0157.500DR"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Replcaement" "Replace With: 0454.500MR"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "Littelfuse_157_1.5A"
+		(extends "Littelfuse_157")
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_157_1.5A"
+			(at -8.89 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littlefuse Nano2 157"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at -7.62 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "015701.5"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Replcaement" "Replace With: 45401.5"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "Littelfuse_157_10A"
+		(extends "Littelfuse_157")
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_157_10A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littlefuse Nano2 157"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at -7.62 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0157010.DR"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Replcaement" "Replace With: 453010.0"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "Littelfuse_157_2.5A"
+		(extends "Littelfuse_157")
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_157_2.5A"
+			(at -1.27 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littlefuse Nano2 157"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at -7.62 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "015702.5DR"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Replcaement" "Replace With: 45402.5"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "Littelfuse_157_2A"
+		(extends "Littelfuse_157")
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_157_2A"
+			(at -7.62 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littlefuse Nano2 157"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at -7.62 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0157002.DR"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Replcaement" "Replace With: 453002.0"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "Littelfuse_157_5A"
+		(extends "Littelfuse_157")
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_157_5A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littlefuse Nano2 157"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at -11.43 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0157005.DR"
+			(at -1.27 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Replcaement" "Replace With: 454005.0"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "Littelfuse_157_5A_Slow"
+		(extends "Littelfuse_157")
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_157_5A_Slow"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littlefuse Nano2 157"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at -11.43 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0157005.DRT"
+			(at -1.27 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Replcaement" "Replace With: 454005.0"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "Littelfuse_157_8A"
+		(extends "Littelfuse_157")
+		(property "Reference" "F"
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Littelfuse_157_8A"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-Current-SMD-LittelFuse-Nano2-157"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157t_datasheet.pdf.pdf"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littlefuse Nano2 157"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at -7.62 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0157008.DR"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Replcaement" "Replace With: 453008.0"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "Littelfuse_448_10A"
+		(extends "Littelfuse_448")
+		(property "Reference" "F"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10A"
+			(at -2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "BoxLib:Fuse-littelfuse-448"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/fuse-448-datasheet?assetguid=12c1a28d-212b-4f45-9d77-c982b871378a"
+			(at 0.254 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FUSE BRD MNT 10A 125VAC/VDC 2SMD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maufacturer" "Littelfuse"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "MPN" "0448010.MR"
+			(at 2.54 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+	)
 )
